@@ -1,0 +1,82 @@
+body {
+  background-color: floralwhite;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content: center;
+}
+
+.topic {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-shadow: 2px 4px 4px #000000;
+}
+.organization {
+  color: black;
+  font-size: 1.2rem;
+}
+header {
+  font-size: .8rem;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background-color: darkslategray;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Pragati Narrow", sans-serif;
+  margin: auto;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  color: yellow;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 5px;
+}
+footer {
+  text-align: center;
+  background-color: darkslategray;
+  margin: 10px;
+  padding: 10px;
+  color: whitesmoke;
+  font-family: "Playfair Display", serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 1px lightslategray solid;
+}
+
+#repetition,
+#contrast,
+#proximity {
+  border: 2px darkslategray solid;
+  border-radius: 25px;
+  background-color: darkcyan;
+  padding: 1rem;
+  margin: 0.5rem;
+}

@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .topic {
+    font-size: 1.8rem;
+  }
+  .organization {
+    font-size: 1.4rem;
+  }
+  header {
+    font-size: 1rem;
+  }
+
+  #proximity {
+    grid-column: 1/3;
+  }
+}
