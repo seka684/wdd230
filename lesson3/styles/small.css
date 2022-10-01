@@ -1,0 +1,82 @@
+body {
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  font-family: "Mukta Malar", sans-serif;
+  color: #a73520;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  background-color: #053d2c;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 15px;
+}
+
+#footcolor {
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #053d2c;
+}
+nav ul {
+  flex: 1 1 auto;
+  color: brown;
+  list-style: none;
+}
+nav a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  width: 160px;
+  height: 160px;
+}
+
+.sections {
+  margin: 25px;
+}
+
+.persona {
+  width: 160px;
+  height: 160px;
+}
+
+#palette {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-content {
+  text-align: center;
+}
