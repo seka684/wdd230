@@ -9,5 +9,14 @@ body {
 }
 
 header {
-    background-color: ;
+    display: flex;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
 }
