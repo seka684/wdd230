@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,63 +23,76 @@
   </head>
   <body>
     <header>
-        <img src="images/Local-Treasures.png" alt="local treasures logo">
-      <h1>Local Treasures</h1>
-      <h3>Chamber of Commerce</h3>
-    
-    <nav>
-      <ul class="navMenu">
-        <li>
-          <a href="index.html">Discover</a>
-        </li>
-        <li>
-          <a href="target-audience.html">Directory</a>
-        </li>
-        <li>
-          <a href="color-scheme.html">Join</a>
-        </li>
-        <li>
-          <a href="typography.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <span><img src="images/facebook.png" alt="facebook icon"><img src="images/linkedin.png" alt="linkedin icon"></span>
+      <div class="headings">
+        <img id="logo" src="images/Local-Treasures.png" alt="local treasures logo" />
+        <section>
+          <h1>Local Treasures</h1>
+          <h3>Chamber of Commerce</h3>
+        </section>
+      </div>
+
+      <nav>
+        <ul class="navMenu">
+          <li>
+            <a href="index.html">Discover</a>
+          </li>
+          <li>
+            <a href="target-audience.html">Directory</a>
+          </li>
+          <li>
+            <a href="color-scheme.html">Join</a>
+          </li>
+          <li>
+            <a href="typography.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <span
+        ><img src="images/facebook.png" alt="facebook icon" /><img
+          src="images/linkedin.png"
+          alt="linkedin icon"
+      /></span>
+      <span>Current date</span>
     </header>
     <main>
-      <div class="body-grid">
-        <div class="sections">
-          <h2 class="topic">Site Name</h2>
-          <h3>Local Treasures Commerce</h3>
-        </div>
-        <div class="sections">
-          <h2 class="topic">Site Purpose</h2>
-          <p>
-            The purpose of this website is to showcase the variety of local
-            businesses that are in American Samoa. This site will be a place
-            where local businesses can promote their business, invite and
-            encourage the residents as well as visitors to buy local. This
-            website will also include community and business highlights, local
-            calendar events, local weather, directory, historical background of
-            American Samoa, and current demographics.
-          </p>
-        </div>
-        <div class="sections">
-          <h2 class="topic">Domain Name</h2>
-          <p>http://www.keepitas.com</p>
-        </div>
-        <div class="sections">
-          <h2 class="topic">Logo</h2>
-          <img
-            id="logo"
-            src="images/Local-Treasures.png"
-            alt="local treasures logo"
-          />
-        </div>
+      <div>
+        <p>Hero with site name and call to action</p>
+      </div>
+      <div>
+        <p>News Release</p>
+      </div>
+      <div id="spotlight">
+        <p>Spotlight 1</p>
+        <p>Spotlight 2</p>
+      </div>
+      <div>
+        <p>Event</p>
+      </div>
+      <div>
+        <p>Join</p>
+      </div>
+      <div>
+        <p>Weather</p>
       </div>
     </main>
     <footer>
-      &copy;<span id="year"></span> | Esther F. Segifili | American Samoa
-      <div id="footcolor">Last Updated: <span id="lastmodified"></span></div>
+      <div class="topft">
+        <div>
+          <img src="images/Local-Treasures.png" alt="local treasures logo" />
+          <h3>Local Treasures Chamber of Commerce</h3>
+          <p>Pago Pago, American Samoa 96799</p>
+          <div>
+            <p>info@treasuresc.org</p>
+            <p>+(684) 555-5555</p>
+            <p>Location Map</p>
+          </div>
+        </div>
+      </div>
+      <div class="baseft">
+        &copy;<span id="year">Local Treasures Commerce</span> | Esther F.
+        Segifili | WDD 230 Project
+        <div>Last Updated: <span id="lastmodified"></span></div>
+      </div>
     </footer>
     <script src="scripts/dates.js"></script>
   </body>
