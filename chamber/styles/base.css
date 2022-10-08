@@ -1,9 +1,13 @@
-.headings {
-
+#logo {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
 }
 
-#logo {
-    width: 120px;
-    height: 120px;
+body {
+    font-size: 16px;
+}
 
+header {
+    background-color: ;
 }
