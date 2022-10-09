@@ -23,16 +23,17 @@
   </head>
   <body>
     <header>
-      <div class="headings">
-        <img class="logo" src="images/newLogo.png" alt="local treasures logo" />
-        <section>
-          <h1>Local Treasures</h1>
-          <h3>Chamber of Commerce</h3>
-        </section>
+      <div>
+        <img id="toplogo" src="images/newLogo.png" alt="local treasures logo" />
+        <div class="mainheading">
+          <h1 id="title">Local Treasures</h1>
+          <p class="subheadings">Chamber of Commerce</p>
+        </div>
       </div>
-
+      <div class="headings2">
       <nav>
-        <ul class="navMenu">
+        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+        <ul class="navMenu responsive">
             <li>
                 <a href="#" onclick="toggleMenu()">&#9776</a>
             </li>
@@ -50,12 +51,16 @@
           </li>
         </ul>
       </nav>
-      <div class="icons">
-      <img src="images/facebook.png" alt="facebook icon" /><img
+      <span>
+      <img class="icons" src="images/facebook.png" alt="facebook icon" />
+      <img class="icons"
           src="images/linkedin.png"
           alt="linkedin icon">
+      </span>
       </div>
-      <div>Current date</div>
+      <div class="header2">
+        <p id="today">Current date</p>
+      </div>
     </header>
     <main>
       <div>
@@ -81,7 +86,7 @@
     <footer>
       <div class="topft">
         <div>
-          <img class="logo" src="images/newLogo.png" alt="local treasures logo" />
+          <img id="ftlogo" src="images/newLogo.png" alt="local treasures logo" />
           <h3>Local Treasures Chamber of Commerce</h3>
           <p>Pago Pago, American Samoa 96799</p>
           <div>
