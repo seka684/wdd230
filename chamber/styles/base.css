@@ -1,22 +1,70 @@
-.logo {
+#toplogo {
     width: 100px;
     height: 100px;
     padding: 2px;
+    float: left;
+    
 }
 
 body {
     font-size: 16px;
+    font-family: "Mukta", sans-serif;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60% 40%;
+    border-style:solid;
+    border-color: #053d2c;
+    border-width: 5px;
+    margin: 4px;
+}
+
+h1 {
+    font-size: .8rem;
+    font-family: "Playfair Display", serif;
+}
+.subheadings {
+    font-size: .6rem;
+    font-family: "Mukta Malar", sans-serif;
+    font-style: italic;
+    color: #197e80;
+}
+
+main {
+    display: flexbox;
+    border: ;
+}
+.navMenu {
+    display: none;
+}
+
+a {
+    color: black;;
 }
 
 .icons {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.today {
+    text-align: center;
+    background-color: #00c797;
+    margin: 5px;
+    padding: 5px;
+    font-size: .7rem;
+    font-family: "Mukta Malar", sans-serif;
+}
+#ftlogo {
+    width: 100px;
+    height: 100px;
+}
+
+.responsive li {
+    display: block;
+}
+.headings2 {
+
 }
