@@ -32,16 +32,20 @@ h1 {
     color: #197e80;
 }
 
-main {
-    display: flexbox;
-    border: ;
+#hero #events #weather #news .spotlight {
+    display: block;
+    width: 80%;
+    height: 80%;
+    border: #053d2c solid 2px;
 }
+
 .navMenu {
     display: none;
 }
 
 a {
-    color: black;;
+    color: black;
+    list-style: none;
 }
 
 .icons {
