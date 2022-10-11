@@ -30,19 +30,11 @@
     display: flex;
   }
 
-  ul li a {
-  }
-
   #mediaicons {
-    display: flex;
-    flex: 1;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
+   position: absolute;
 
   nav {
-    flex: 2;
-    margin: auto;
+    width: 100%;
   }
 
   ul {
@@ -50,12 +42,12 @@
     width: 100%;
   }
   .topheader {
-    display: flex;
+    display: block;
     flex-direction: row;
   }
 
   .lftheader {
-    flex: 1;
+    align-items: center;
   }
 
   .boxes {
