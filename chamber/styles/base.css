@@ -1,153 +1,172 @@
 .logo {
-    width: 80px;
-    height: 80px;
-    padding: 2px;
+  width: 80px;
+  height: 80px;
+  padding: 2px;
 }
 
 body {
-    font-size: 16px;
-    font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
 }
 
 main {
-    max-width: 100%;
-    margin: auto;
-    font-size: 1rem;
+  max-width: 100%;
+  margin: auto;
+  font-size: 1rem;
 }
 header {
-    display: block;
-    border: #053d2c 2px solid;
-    margin: 4px;
+  display: block;
+  border: #053d2c 2px solid;
+  margin: 4px;
 }
 
 .topheader {
-    display: flex;
-    justify-content: space-between;
-    margin: 2px;
-
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
 }
 
 .lftheader {
-    display: flex;
-
-}
-
-button #hamburger {
-   padding: 5px;
+  display: flex;
 }
 
 #mediaicons {
-    display: flex;
-    padding-top: 5px;
-}
-
-nav {
-    padding: 5px;
+  display: flex;
+  padding-top: 5px;
 }
 
 .rtheader {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    font-size: .9rem;
-    font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
-    font-size: .7rem;
+  font-size: 0.7rem;
 }
 .subheadings {
-    font-size: .7rem;
-    font-family: "Mukta Malar", sans-serif;
-    font-style: italic;
-    color: #197e80;
+  font-size: 0.7rem;
+  font-family: "Mukta Malar", sans-serif;
+  font-style: italic;
+  color: #197e80;
 }
 
 .mainheading {
-    padding: 2px;
+  padding: 2px;
 }
 
-#hero, #news, .spotlight, #events, #join, #weather {
-    display: block;
-    width: 85%;
-    height: 100px;
-    border: #053d2c solid 2px;
-    margin: 5px auto;
-    text-align: center;
-    background-color: #00c797;
+#hero,
+#news,
+.spotlight,
+#events,
+#join,
+#weather {
+  display: block;
+  width: 85%;
+  height: 100px;
+  border: #053d2c solid 2px;
+  margin: 5px auto;
+  text-align: center;
+  background-color: #00c797;
 }
 
 .spotlight {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 160px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 160px;
 }
 
 #spot1 {
-    border: #053d2c 1px solid;
-    margin: 2px;
-    text-align: center;
-    padding: 2px;
+  border: #053d2c 1px solid;
+  margin: 2px;
+  text-align: center;
+  padding: 2px;
 }
 
 #spot2 {
-    border: #053d2c 1px solid;
-    margin: 2px;
-    padding: 2px;
-    text-align: center;
+  border: #053d2c 1px solid;
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
 }
 
-.navMenu {
-    display: none;
+.links.active {
+  display: block;
 }
 
-a {
-    color: black;
-    list-style: none;
+ul {
+  list-style: none;
+}
+
+.links ul li a {
+  font-size: 1rem;
+  font-family: "Mukta Malar", sans-serif;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  background-color: #053d2c;
+  color: white;
+}
+
+a:hover {
+  background-color: #00c797;
+  color: black;
+}
+
+.links {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  margin: 2px;
+  width: 30px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
 }
 
 .icons {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 #today {
-    text-align: center;
-    color: white;
-    background-color: #197e80;
-    height: 1rem;
-    margin: 5px;
-    padding: 5px;
-    font-size: .7rem;
-    font-family: "Mukta Malar", sans-serif;
-}
-
-.responsive li {
-    display: block;
+  text-align: center;
+  color: white;
+  background-color: #053d2c;
+  height: 1rem;
+  margin: 5px;
+  padding: 5px;
+  font-size: 0.7rem;
+  font-family: "Mukta Malar", sans-serif;
 }
 
 footer {
-    display: block;
-    text-align: center;
-    font-size: .7rem;
-    border: #053d2c solid 2px;
-    margin: 4px;
-    padding: 2px;
+  display: block;
+  text-align: center;
+  font-size: 0.7rem;
+  border: #053d2c solid 2px;
+  margin: 4px;
+  padding: 2px;
 }
 
-.border{
-    border-bottom: solid 1px #053d2c;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 5px;
-    
+.border {
+  border-bottom: solid 1px #053d2c;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px;
 }
 .baseft {
-    background-color: #197e80;
-    padding: 5px;
-    color: white;
-    margin: 5px;
+  background-color: #053d2c;
+  padding: 5px;
+  color: white;
+  margin: 5px;
 }
