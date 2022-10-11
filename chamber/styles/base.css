@@ -28,6 +28,7 @@ header {
 
 .lftheader {
   display: flex;
+  align-items: center;
 }
 
 #mediaicons {
@@ -55,6 +56,7 @@ h3 {
 }
 
 .mainheading {
+  margin-left: 0;
   padding: 2px;
 }
 
