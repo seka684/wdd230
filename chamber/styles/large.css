@@ -17,26 +17,26 @@
   }
 
   #today {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     height: 60px;
+    align-content: center;
   }
 
   .hamburger {
     display: none;
   }
 
-  .links {
+.links {
     display: flex;
-    justify-content: flex-start;
-  }
+}
 
-  nav ul li a {
+ul li {
     display: inline;
-  }
+}
+
 
   .topheader {
     display: flex;
-    flex: 1 1 auto;
   }
 
   .boxes {
@@ -48,7 +48,7 @@
 
   #hero {
     grid-column: 2/4;
-    grid-row: 1/3;
+    grid-row: 1/4;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -57,7 +57,7 @@
 
   #events {
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/2;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -68,7 +68,7 @@
     grid-column: 2/4;
     grid-row: 3/4;
     width: 100%;
-    height: 100%;
+    height: 98%;
     margin: 0;
     padding: 0;
   }
@@ -99,5 +99,28 @@
     height: 100%;
     margin: 0;
     padding: 0;
+
   }
+
+  #spot1 {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #spot2 {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+footer {
+    font-size: 1rem;
+    margin-top: 8px;
 }
+
+
+}
+
