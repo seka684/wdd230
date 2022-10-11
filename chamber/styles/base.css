@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    max-width: 95%;
+    max-width: 98%;
     margin: auto;
     font-size: .9rem;
 }
@@ -23,6 +23,7 @@ header {
 .topheader {
     display: flex;
     justify-content: space-between;
+    margin: 2px;
 
 }
 
@@ -49,7 +50,7 @@ nav {
 }
 
 h1 {
-    font-size: .8rem;
+    font-size: .9rem;
     font-family: "Playfair Display", serif;
 }
 
@@ -106,14 +107,14 @@ a {
 }
 
 .icons {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .today {
     text-align: center;
-    background-color: #00c797;
-    border: #053d2c 2px solid;
+    background-color: #197e80;
+    border: #053d2c 1px solid;
     margin: 5px;
     padding: 5px;
     font-size: .7rem;
@@ -125,12 +126,12 @@ a {
 }
 
 footer {
-    background-color: #00c797;
     display: block;
     text-align: center;
     font-size: .7rem;
     border: #053d2c solid 2px;
     margin: 4px;
+    padding: 2px;
 }
 
 .topft {
@@ -145,4 +146,10 @@ footer {
     text-align: center;
     margin-bottom: 5px;
     
+}
+.baseft {
+    background-color: #197e80;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #053d2c;
 }
