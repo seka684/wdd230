@@ -1,9 +1,7 @@
-#toplogo {
-    width: 100px;
-    height: 100px;
+.logo {
+    width: 80px;
+    height: 80px;
     padding: 2px;
-    float: left;
-    
 }
 
 body {
@@ -11,19 +9,52 @@ body {
     font-family: "Mukta", sans-serif;
 }
 
+main {
+    max-width: 95%;
+    margin: auto;
+    font-size: .9rem;
+}
 header {
     display: block;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60% 40%;
-    border-style:solid;
-    border-color: #053d2c;
-    border-width: 5px;
+    border: #053d2c 2px solid;
     margin: 4px;
+}
+
+.topheader {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lftheader {
+    display: flex;
+
+}
+
+button #hamburger {
+   padding: 5px;
+}
+
+#mediaicons {
+    display: flex;
+    padding-top: 5px;
+}
+
+nav {
+    padding: 5px;
+}
+
+.rtheader {
+    display: flex;
 }
 
 h1 {
     font-size: .8rem;
     font-family: "Playfair Display", serif;
+}
+
+h3 {
+    font-size: .7rem;
 }
 .subheadings {
     font-size: .6rem;
@@ -32,11 +63,37 @@ h1 {
     color: #197e80;
 }
 
-#hero #events #weather #news .spotlight {
+.mainheading {
+    padding: 2px;
+}
+
+#hero, #news, .spotlight, #events, #join, #weather {
     display: block;
     width: 80%;
     height: 80%;
     border: #053d2c solid 2px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #00c797;
+}
+
+#spot1 {
+    border: #053d2c solid 1px;
+    width: 90%;
+    height: 90%;
+    margin: 2px auto;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+#spot2 {
+    border: #053d2c solid 1px;
+    width: 90%;
+    height: 90%;
+    margin: 2px auto;
+    margin-top: 0;
+    padding: 5px;
 }
 
 .navMenu {
@@ -49,26 +106,43 @@ a {
 }
 
 .icons {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .today {
     text-align: center;
     background-color: #00c797;
+    border: #053d2c 2px solid;
     margin: 5px;
     padding: 5px;
     font-size: .7rem;
     font-family: "Mukta Malar", sans-serif;
 }
-#ftlogo {
-    width: 100px;
-    height: 100px;
-}
 
 .responsive li {
     display: block;
 }
-.headings2 {
 
+footer {
+    background-color: #00c797;
+    display: block;
+    text-align: center;
+    font-size: .7rem;
+    border: #053d2c solid 2px;
+    margin: 4px;
+}
+
+.topft {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.border{
+    border-bottom: solid 1px #053d2c;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    
 }
