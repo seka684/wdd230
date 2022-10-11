@@ -10,9 +10,9 @@ body {
 }
 
 main {
-    max-width: 98%;
+    max-width: 100%;
     margin: auto;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 header {
     display: block;
@@ -58,7 +58,7 @@ h3 {
     font-size: .7rem;
 }
 .subheadings {
-    font-size: .6rem;
+    font-size: .7rem;
     font-family: "Mukta Malar", sans-serif;
     font-style: italic;
     color: #197e80;
@@ -70,31 +70,33 @@ h3 {
 
 #hero, #news, .spotlight, #events, #join, #weather {
     display: block;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 100px;
     border: #053d2c solid 2px;
     margin: 5px auto;
     text-align: center;
     background-color: #00c797;
 }
 
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 160px;
+}
+
 #spot1 {
-    border: #053d2c solid 1px;
-    width: 90%;
-    height: 90%;
-    margin: 2px auto;
-    margin-bottom: 0;
-    padding: 5px;
+    border: #053d2c 1px solid;
+    margin: 2px;
     text-align: center;
+    padding: 2px;
 }
 
 #spot2 {
-    border: #053d2c solid 1px;
-    width: 90%;
-    height: 90%;
-    margin: 2px auto;
-    margin-top: 0;
-    padding: 5px;
+    border: #053d2c 1px solid;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
 }
 
 .navMenu {
@@ -111,10 +113,11 @@ a {
     height: 25px;
 }
 
-.today {
+#today {
     text-align: center;
+    color: white;
     background-color: #197e80;
-    border: #053d2c 1px solid;
+    height: 1rem;
     margin: 5px;
     padding: 5px;
     font-size: .7rem;
@@ -134,11 +137,6 @@ footer {
     padding: 2px;
 }
 
-.topft {
-    margin-top: 5px;
-    padding-top: 5px;
-}
-
 .border{
     border-bottom: solid 1px #053d2c;
     width: 90%;
@@ -150,6 +148,6 @@ footer {
 .baseft {
     background-color: #197e80;
     padding: 5px;
+    color: white;
     margin: 5px;
-    border: 1px solid #053d2c;
 }
