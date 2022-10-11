@@ -26,17 +26,36 @@
     display: none;
   }
 
-.links {
+  .links {
     display: flex;
-}
+  }
 
-ul li {
-    display: inline;
-}
+  ul li a {
+  }
 
+  #mediaicons {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
 
+  nav {
+    flex: 2;
+    margin: auto;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+  }
   .topheader {
     display: flex;
+    flex-direction: row;
+  }
+
+  .lftheader {
+    flex: 1;
   }
 
   .boxes {
@@ -99,7 +118,6 @@ ul li {
     height: 100%;
     margin: 0;
     padding: 0;
-
   }
 
   #spot1 {
@@ -116,11 +134,8 @@ ul li {
     padding: 0;
   }
 
-footer {
+  footer {
     font-size: 1rem;
     margin-top: 8px;
+  }
 }
-
-
-}
-

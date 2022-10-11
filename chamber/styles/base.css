@@ -112,9 +112,8 @@ ul {
   color: white;
 }
 
-a:hover {
-  background-color: #00c797;
-  color: black;
+nav {
+  display: block;
 }
 
 .links {
