@@ -54,12 +54,15 @@ nav li {
   text-align: center;
 }
 
-li:hover {
+ul li a:hover {
   background-color: #00c797;
   color: black;
   font-size: 1.6rem;
 }
 
+.active {
+  color: #d65f1d;
+}
   .topheader {
     display: block;
     flex-direction: row;
