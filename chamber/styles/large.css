@@ -1,4 +1,4 @@
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1200px) {
   h1 {
     font-size: 3rem;
   }
@@ -60,7 +60,7 @@ ul li a:hover {
   font-size: 1.6rem;
 }
 
-}
+
   .topheader {
     display: block;
     flex-direction: row;
@@ -73,10 +73,9 @@ nav {
 }
 
   .rtheader {
-    display: box;
     max-width: 100%;
     justify-content: center;
-    margin-right: ; 
+    margin-right: 0; 
   }
 
   .lftheader {
