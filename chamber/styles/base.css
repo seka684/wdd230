@@ -34,8 +34,8 @@ header {
 
 #mediaicons {
   position: absolute;
-  right: 40px;
-  top: 20px;
+  right: 5px;
+  top: 25px;
   display: flex;
   padding-top: 5px;
 }
@@ -124,6 +124,10 @@ ul {
 
 nav {
   display: block;
+  position: absolute;
+  top: 28px;
+  right: 60px;
+  overflow: visible;
 }
 
 .links {
@@ -133,19 +137,21 @@ nav {
 button {
   cursor: pointer;
   display: block;
-  position: absolute;
-  right: 10px;
-  top: 30px;
+  position: relative;
+  right: 0px;
+  top: 0px;
   margin: 2px;
   width: 25px;
   height: 25px;
   background-color: #00c797;
   border: none;
+  overflow: visible;
 }
 
 .icons {
   width: 25px;
   height: 25px;
+  padding: 1px;
 }
 
 #today {

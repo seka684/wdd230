@@ -29,7 +29,7 @@
   .links {
     display: flex;
     width: 100%;
-    margin: 10px
+    height: 80px;
   }
 
 
@@ -68,8 +68,11 @@ ul li a:hover {
 
 nav {
   display: flex;
+  height: 120px;
   width: 90%;
-  justify-self: center;
+  position: relative;
+  top: 5px;
+  justify-items: center;
 }
 
   .rtheader {
