@@ -1,11 +1,10 @@
-const input = document.getElementsByClassName('input');
-const button = document.getElementsByClassName('button');
-const list = document.getElementsByClassName('list')
+const input = document.querySelector('input');
+const button = document.querySelector('button');
+const list = document.querySelector('list');
 
 button.addEventListener('click', () => {
     const mychapter = input.value;
     input.value = '';
-
 
     const listItem = document.createElement('li');
     const listText = document.createElement('span');
@@ -23,4 +22,4 @@ button.addEventListener('click', () => {
     });
 
     input.focus();
-  });
+});
