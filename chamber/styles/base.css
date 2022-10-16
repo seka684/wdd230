@@ -18,42 +18,54 @@ main {
 }
 header {
   display: block;
-  margin: 4px;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 15px;
+  ;
 }
 
+.herocontainer {
+  display: block;
+  width: 85%;
+  height: 120px;
+}
 .topheader {
-  display: flex;
-  justify-content: space-between;
-  margin: 2px;
+ display: flex;
+ width: 100%;
+ height: 80%;
+ position: relative;
+ align-items: center;
+ margin: 2px;
+
 }
 
 .lftheader {
+  position: absolute;
+  top: 10%;
+  left: 20%;
   display: flex;
   align-items: center;
+ 
 }
 
 #mediaicons {
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 25px;
   display: flex;
   padding-top: 5px;
 }
 
-.rtheader {
-  display: flex;
-}
-
 h1 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: "Playfair Display", serif;
 }
 
 h3 {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 .subheadings {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-family: "Mukta Malar", sans-serif;
   font-style: italic;
   color: #197e80;
@@ -106,10 +118,15 @@ h3 {
 
 .links.active {
   display: block;
+  position: relative;
+  left: 0;
 }
 
 ul {
   list-style: none;
+  position: absolute;
+  margin: 0;
+  
 }
 
 .links ul li a {
@@ -120,13 +137,17 @@ ul {
   display: block;
   background-color: #053d2c;
   color: white;
+  
+  
 }
 
 nav {
-  display: block;
+  display: flex;
   position: absolute;
-  top: 28px;
-  right: 60px;
+  width: 30%;
+  height: 120%;
+  top: 30%;
+  left: 5%;
   overflow: visible;
 }
 
@@ -137,11 +158,10 @@ nav {
 button {
   cursor: pointer;
   display: block;
-  position: relative;
-  right: 0px;
+  position: absolute;
+  left: 0px;
   top: 0px;
   margin: 2px;
-  width: 25px;
   height: 25px;
   background-color: #00c797;
   border: none;
@@ -163,6 +183,7 @@ button {
   padding: 5px;
   font-size: 0.7rem;
   font-family: "Mukta Malar", sans-serif;
+  ;
 }
 
 footer {
