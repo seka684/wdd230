@@ -256,7 +256,6 @@ footer {
   display: block;
   text-align: center;
   font-size: 0.8rem;
-  border: #053d2c solid 2px;
   margin: 4px;
   padding: 2px;
 }
@@ -272,9 +271,11 @@ p {
   padding: 2px;
 }
 .border {
-  border-bottom: solid 4px #053d2c;
+  border: solid 1px #053d2c;
   width: 90%;
   margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   margin-bottom: 5px;
 }
