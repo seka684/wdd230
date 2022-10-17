@@ -1,3 +1,8 @@
+const weekday = new Date().getDay();
+if (weekday == 1) {
+    document.querySelector('.banner').style.display='block';
+}
 
-const weekday = getDay();
-if (weekday )
+if (weekday == 0) {
+    document.querySelector('.banner').style.display='block';
+}

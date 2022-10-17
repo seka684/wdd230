@@ -10,8 +10,3 @@ const currentdate = new Date();
 document.getElementById('today').textContent = currentdate.toLocaleDateString("en-US", options);
 
 
-const bannerdate = getDay();
-if (bannerdate == 1) {
-    document.getElementsByClassName('.banner').style.display='block';
-
-}
