@@ -8,3 +8,6 @@ let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
 const currentdate = new Date();
 
 document.getElementById('today').textContent = currentdate.toLocaleDateString("en-US", options);
+
+
+
