@@ -9,13 +9,9 @@ const currentdate = new Date();
 
 document.getElementById('today').textContent = currentdate.toLocaleDateString("en-US", options);
 
-const displaybanner = document.querySelector('.banner');
-if (weekday === "Monday") {
-    document.querySelector('.banner').style.display='block';
+
+const bannerdate = getDay();
+if (bannerdate == 1) {
+    document.getElementsByClassName('.banner').style.display='block';
+
 }
-
-if  (weekday === "Tuesday") {
-    document.querySelector('.banner').style.display='block';
-}
-
-
