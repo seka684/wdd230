@@ -1,37 +1,71 @@
 @media only screen and (min-width: 1200px) {
   h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   body {
-    font-size: 1.5rem;
+    font-size: 16px;
+  }
+
+  header {
+    display: block;
+    width: 95%;
+    height: 300px;
+    margin: 5px auto;
+  }
+
+ .topheader {
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    height: 8rem;
   }
 
   .logo {
-    width: 200px;
-    height: 200px;
+   width: 6.5rem;
+  }
+
+  .navbox {
+    display: block;
+    justify-items: center;
+    grid-column: 2/3;
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    margin: auto;
+  }
+
+  nav .links {
+    background-color: gray;
+    height: 3rem;
+    width: 100%;
+    margin: 2px auto;
+  }
+  .links {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    margin: auto;
+  }
+
+  ul {
+    display: flex;
   }
 
   #today {
-    font-size: 1.8rem;
-    height: 60px;
-    align-content: center;
+    font-size: 1.1rem;
+    height: 2rem;
+    align-items: center;
   }
 
   .hamburger {
     display: none;
   }
 
-  .links {
-    display: flex;
-    width: 100%;
-    height: 80px;
-  }
-
+ 
 
   #mediaicons {
     position: absolute;
@@ -39,18 +73,17 @@
     top: 40px;
   }
  
-  ul {
-    display: flex;
-    width: 90%;
-    justify-content: center;
+  
+    width: 100%;
     margin: auto;
     padding: 0;
-    height: 46px;
+    height: 100%;
+    align-items: center;
   }
 
 nav li {
-  display: inline-block;
-  width: 25%;
+  display: inline;
+  width: 20%;
   text-align: center;
 }
 
@@ -61,27 +94,12 @@ ul li a:hover {
 }
 
 
-  .topheader {
-    display: block;
-    flex-direction: row;
-  }
+ 
 
-nav {
-  display: flex;
-  height: 120px;
-  width: 90%;
-  position: relative;
-  top: 5px;
-  justify-items: center;
-}
 
-  .rtheader {
-    max-width: 100%;
-    justify-content: center;
-    margin-right: 0; 
-  }
 
   .lftheader {
+    justify-self: flex-start;
     display: flex;
     justify-content: center;
   }
