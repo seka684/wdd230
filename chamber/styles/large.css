@@ -11,6 +11,18 @@
     font-size: 16px;
   }
 
+  .banner {
+    display: flex;
+  }
+.banner-content {
+  width: 40%;
+}
+
+.handshake {
+  width: 2rem;
+  padding: 0;
+}
+
   header {
     display: block;
     width: 95%;
