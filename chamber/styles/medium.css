@@ -19,11 +19,13 @@
 .topheader {
   position: relative;
   display: flex;
-  align-content: center;
+  
 }
 
   .lftheader {
     position: absolute;
+
+    ;
     
   }
 
