@@ -89,6 +89,7 @@ main {
     display: grid;
     margin: 5px auto;
     grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 300px 300px 300px;
   }
 
   .herocontainer {
@@ -105,8 +106,6 @@ main {
     grid-row: 1/3;
     width: 100%;
     height: 99%;
-   
-    
   }
 
   .calltoaction {
@@ -122,16 +121,17 @@ main {
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 0;
-    height: 100%;
+    height: 96%;
+    box-shadow: -5px -5px 10px #053d2c;
   }
 
   #weather {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 96%;
-    height: 100%;
+    height: 96%;
     margin-top: 0;
-    
+    box-shadow: -5px -5px 10px #053d2c;
   }
 
   #join {
@@ -141,6 +141,9 @@ main {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-shadow: -5px 5px 10px #053d2c;
+    background-color: #053d2c;
+    color: white;
   }
 
   #news {
@@ -150,6 +153,7 @@ main {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-shadow: 2px 5px 10px #053d2c;
   }
 
   .spotlightbox {
@@ -160,6 +164,7 @@ main {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-shadow: 5px 5px 10px #053d2c;
   }
 
   .spot1 {
@@ -167,6 +172,7 @@ main {
     height: 33%;
     margin: 0;
     padding: 0;
+    box-shadow: 0 -5px 10px #053d2c;
   }
 
   .spot2 {
