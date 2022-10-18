@@ -3,6 +3,6 @@ if (weekday == 1) {
     document.querySelector('.banner').style.display='block';
 }
 
-if (weekday == 0) {
+if (weekday == 2) {
     document.querySelector('.banner').style.display='block';
 }
