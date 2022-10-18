@@ -17,7 +17,7 @@ body {
   height: 1rem;
   width: 100%;
   background-color: #d65f1d;
-  opacity: .8;
+  opacity: 0.8;
   margin: auto;
 }
 
@@ -27,7 +27,7 @@ body {
   position: absolute;
   top: 0;
   text-align: center;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .handshake {
@@ -35,7 +35,6 @@ body {
   width: 1rem;
   padding: 0 5px;
   left: 0;
-
 }
 
 main {
