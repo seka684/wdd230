@@ -26,11 +26,26 @@
   <body>
     <div class="banner">
       <div class="banner-content">
-        <img
-          class="handshake"
-          src="images/handshakeicon.png"
-          alt="handshake icon"
-        />
+        <picture class="handshakeimg">
+          <source
+            media="max-width: 200px)"
+            srcset="images/icons/handshake200.png"
+          />
+          <source
+            media="max-width: 500px)"
+            srcset="images/icons/handshake500.png"
+          />
+          <source
+            media="max-width: 800px)"
+            srcset="images/icons/handshake800.png"
+          />
+
+          <img
+            class="handshake"
+            src="images/icons/handshakeicon.png"
+            alt="handshake icon"
+          />
+        </picture>
         <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
       </div>
     </div>
@@ -39,7 +54,7 @@
         <div class="lftheader">
           <img
             class="logo"
-            src="images/croppedlogo.png"
+            src="images/logo/logoWEBP.webp"
             alt="local treasures logo"
           />
           <div class="mainheading">
@@ -72,10 +87,16 @@
 
         <span id="mediaicons">
           <a href="https://www.facebook.com/"
-            ><img class="icons" src="images/facebook.png" alt="facebook icon"
+            ><img
+              class="icons"
+              src="images/icons/facebook.png"
+              alt="facebook icon"
           /></a>
           <a href="https://www.linkedin.com/"
-            ><img class="icons" src="images/linkedin.png" alt="linkedin icon"
+            ><img
+              class="icons"
+              src="images/icons/linkedin.png"
+              alt="linkedin icon"
           /></a>
         </span>
       </div>
@@ -85,13 +106,26 @@
     <main>
       <div class="boxes">
         <section class="herocontainer">
-          <div>
+          <picture class="heroimg">
+            <source
+              media="max-width: 200px)"
+              srcset="images/temphero/wdd230-200.jpg"
+            />
+            <source
+              media="max-width: 500px)"
+              srcset="images/temphero/wdd230-500.jpg"
+            />
+            <source
+              media="max-width: 800px)"
+              srcset="images/temphero/wdd230-800.jpg"
+            />
+
             <img
               id="plumeria"
-              src="images/plumeria.jpg"
-              alt="white and yellow plumeria flowers"
+              src="images/temphero/wdd230-org.jpg"
+              alt="temporary hero image"
             />
-          </div>
+          </picture>
           <div class="calltoaction">
             <button class="joinbtn" type="button">Join Us!</button>
           </div>
@@ -140,12 +174,29 @@
           </p>
         </div>
         <div id="weather">
-          <a href="https://www.flaticon.com/free-icons/rain" title="rain icons"
-            ><img
-              class="weathericon"
-              src="images/rainy.png"
-              alt="black rainy icon"
-          /></a>
+          <picture class="weathericon">
+            <source
+              media="max-width: 200px)"
+              srcset="images/icons/weather200.png"
+            />
+            <source
+              media="max-width: 500px)"
+              srcset="images/icons/weather500.png"
+            />
+            <source
+              media="max-width: 512px)"
+              srcset="images/icons/weather512.png"
+            />
+
+            <a
+              href="https://www.flaticon.com/free-icons/rain"
+              title="rain icons"
+              ><img
+                class="weathericon"
+                src="images/icons/rainy.png"
+                alt="black rainy icon"
+            /></a>
+          </picture>
           <h3>Local Weather</h3>
           <p>This is where the weather forecast will go.</p>
         </div>
@@ -155,7 +206,7 @@
       <div class="topft">
         <img
           class="logo"
-          src="images/croppedlogo.png"
+          src="images/logo/logoWEBP.webp"
           alt="local treasures logo"
         />
         <h3 class="footertitle">Local Treasures Chamber of Commerce</h3>
