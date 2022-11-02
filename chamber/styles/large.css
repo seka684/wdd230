@@ -109,11 +109,11 @@
     height: 100%;
   }
 
-  #heroDef {
+  .heroimg img {
     grid-column: 2/3;
     grid-row: 1/3;
-    width: 100%;
-    height: 99%;
+    width: 98%;
+    height: 100%;
   }
 
   .calltoaction {
