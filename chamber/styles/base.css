@@ -73,12 +73,6 @@ header {
 */
 
 /* discover page
-.calltoaction {
-  position: absolute;
-  right: 28%;
-  bottom: 38%;
-}
-
 
 .welcome {
   color: white;
@@ -89,7 +83,10 @@ header {
   top: 10%;
 }
 
-.joinbtn {
+.joinbtn1 {
+  position: absolute;
+  right: 28%;
+  bottom: 38%;
   font-size: 1rem;
   width: 5rem;
   background-color: transparent;
