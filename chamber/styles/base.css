@@ -225,6 +225,10 @@ h3 {
   width: 2rem;
 }
 
+.temperature {
+  padding-bottom: 2rem;
+}
+
 .links.active {
   display: block;
   position: relative;
