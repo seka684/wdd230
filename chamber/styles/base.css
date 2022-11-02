@@ -62,10 +62,19 @@ header {
 
 .heroimg img {
   width: 100%;
+}
 
+.welcome h3 {
+  display: none;
+}
+
+.joinbtn1 {
+  display: none;
 }
   
- /* width: 100%;
+ /* 
+  .heroimg img {
+  width: 100%;
   outline: 2px solid white;
   outline-offset: -10px;
   filter: brightness(50%);
