@@ -55,28 +55,30 @@ header {
 }
 
 .herocontainer {
-  width: 85%;
-  height: 120px;
-  align-items: center;
-  position: relative;
-  margin: 5px auto;
+  display: block;
+  width: 96%;
+  margin: 0 2%;
 }
 
-.heroimage {
-  display: block;
-  position: absolute;
+.heroimage img {
   width: 100%;
-  height: 100%;
+
+}
+  
+ /* width: 100%;
   outline: 2px solid white;
   outline-offset: -10px;
   filter: brightness(50%);
 }
+*/
 
+/* discover page
 .calltoaction {
   position: absolute;
   right: 28%;
   bottom: 38%;
 }
+*/
 
 .welcome {
   color: white;
